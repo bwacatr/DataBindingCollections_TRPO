@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3675A36-50C6-4096-85C8-FFD97E1E15BA}|DataBindingCollections_TRPO.csproj|c:\\users\\st310-08\\desktop\\romanov_pr31\\databindingcollections_trpo\\budgetestimate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3675A36-50C6-4096-85C8-FFD97E1E15BA}|DataBindingCollections_TRPO.csproj|solutionrelative:budgetestimate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3675A36-50C6-4096-85C8-FFD97E1E15BA}|DataBindingCollections_TRPO.csproj|c:\\users\\st310-08\\desktop\\romanov_pr31\\databindingcollections_trpo\\budgetestimatelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3675A36-50C6-4096-85C8-FFD97E1E15BA}|DataBindingCollections_TRPO.csproj|solutionrelative:budgetestimatelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3675A36-50C6-4096-85C8-FFD97E1E15BA}|DataBindingCollections_TRPO.csproj|c:\\users\\st310-08\\desktop\\romanov_pr31\\databindingcollections_trpo\\expenseitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3675A36-50C6-4096-85C8-FFD97E1E15BA}|DataBindingCollections_TRPO.csproj|solutionrelative:expenseitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3675A36-50C6-4096-85C8-FFD97E1E15BA}|DataBindingCollections_TRPO.csproj|c:\\users\\st310-08\\desktop\\romanov_pr31\\databindingcollections_trpo\\pages\\itemformpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3675A36-50C6-4096-85C8-FFD97E1E15BA}|DataBindingCollections_TRPO.csproj|solutionrelative:pages\\itemformpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3675A36-50C6-4096-85C8-FFD97E1E15BA}|DataBindingCollections_TRPO.csproj|c:\\users\\st310-08\\desktop\\romanov_pr31\\databindingcollections_trpo\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3675A36-50C6-4096-85C8-FFD97E1E15BA}|DataBindingCollections_TRPO.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3675A36-50C6-4096-85C8-FFD97E1E15BA}|DataBindingCollections_TRPO.csproj|c:\\users\\st310-08\\desktop\\romanov_pr31\\databindingcollections_trpo\\pages\\itemformpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3675A36-50C6-4096-85C8-FFD97E1E15BA}|DataBindingCollections_TRPO.csproj|solutionrelative:pages\\itemformpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3675A36-50C6-4096-85C8-FFD97E1E15BA}|DataBindingCollections_TRPO.csproj|c:\\users\\st310-08\\desktop\\romanov_pr31\\databindingcollections_trpo\\pages\\listpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3675A36-50C6-4096-85C8-FFD97E1E15BA}|DataBindingCollections_TRPO.csproj|solutionrelative:pages\\listpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3675A36-50C6-4096-85C8-FFD97E1E15BA}|DataBindingCollections_TRPO.csproj|c:\\users\\st310-08\\desktop\\romanov_pr31\\databindingcollections_trpo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3675A36-50C6-4096-85C8-FFD97E1E15BA}|DataBindingCollections_TRPO.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3675A36-50C6-4096-85C8-FFD97E1E15BA}|DataBindingCollections_TRPO.csproj|c:\\users\\st310-08\\desktop\\romanov_pr31\\databindingcollections_trpo\\pages\\listpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3675A36-50C6-4096-85C8-FFD97E1E15BA}|DataBindingCollections_TRPO.csproj|solutionrelative:pages\\listpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3675A36-50C6-4096-85C8-FFD97E1E15BA}|DataBindingCollections_TRPO.csproj|c:\\users\\st310-08\\desktop\\romanov_pr31\\databindingcollections_trpo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3675A36-50C6-4096-85C8-FFD97E1E15BA}|DataBindingCollections_TRPO.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BudgetEstimateList.cs",
+              "DocumentMoniker": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\BudgetEstimateList.cs",
+              "RelativeDocumentMoniker": "BudgetEstimateList.cs",
+              "ToolTip": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\BudgetEstimateList.cs",
+              "RelativeToolTip": "BudgetEstimateList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T12:07:08.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T10:49:38.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExpenseItem.cs",
+              "DocumentMoniker": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\ExpenseItem.cs",
+              "RelativeDocumentMoniker": "ExpenseItem.cs",
+              "ToolTip": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\ExpenseItem.cs",
+              "RelativeToolTip": "ExpenseItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T10:39:54.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BudgetEstimate.cs",
+              "DocumentMoniker": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\BudgetEstimate.cs",
+              "RelativeDocumentMoniker": "BudgetEstimate.cs",
+              "ToolTip": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\BudgetEstimate.cs",
+              "RelativeToolTip": "BudgetEstimate.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAowFsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T10:33:26.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemFormPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\Pages\\ItemFormPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\ItemFormPage.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\Pages\\ItemFormPage.xaml.cs",
+              "RelativeToolTip": "Pages\\ItemFormPage.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T09:59:02.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ItemFormPage.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\Pages\\ItemFormPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\ItemFormPage.xaml",
+              "ToolTip": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\Pages\\ItemFormPage.xaml",
+              "RelativeToolTip": "Pages\\ItemFormPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-23T09:58:58.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ListPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\Pages\\ListPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\ListPage.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\Pages\\ListPage.xaml.cs",
+              "RelativeToolTip": "Pages\\ListPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T09:31:16.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ListPage.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\Pages\\ListPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\ListPage.xaml",
+              "ToolTip": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\Pages\\ListPage.xaml",
+              "RelativeToolTip": "Pages\\ListPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-23T09:23:42.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-23T09:18:18.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T09:18:15.785Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
