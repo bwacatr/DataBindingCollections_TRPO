@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\DataBindingCollections_TRPO.csproj": {}
+    "C:\\Users\\Анатолий\\Desktop\\задачи\\DataBindingCollections_TRPO\\DataBindingCollections_TRPO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\DataBindingCollections_TRPO.csproj": {
+    "C:\\Users\\Анатолий\\Desktop\\задачи\\DataBindingCollections_TRPO\\DataBindingCollections_TRPO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\DataBindingCollections_TRPO.csproj",
+        "projectUniqueName": "C:\\Users\\Анатолий\\Desktop\\задачи\\DataBindingCollections_TRPO\\DataBindingCollections_TRPO.csproj",
         "projectName": "DataBindingCollections_TRPO",
-        "projectPath": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\DataBindingCollections_TRPO.csproj",
-        "packagesPath": "C:\\Users\\st310-08\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\st310-08\\Desktop\\Romanov_PR31\\DataBindingCollections_TRPO\\obj\\",
+        "projectPath": "C:\\Users\\Анатолий\\Desktop\\задачи\\DataBindingCollections_TRPO\\DataBindingCollections_TRPO.csproj",
+        "packagesPath": "C:\\Users\\Анатолий\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Анатолий\\Desktop\\задачи\\DataBindingCollections_TRPO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\st310-08\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Анатолий\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,8 +25,9 @@
           "net8.0-windows"
         ],
         "sources": {
-          "C:\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
@@ -68,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

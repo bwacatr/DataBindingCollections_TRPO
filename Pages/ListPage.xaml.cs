@@ -23,7 +23,7 @@ namespace DataBindingCollections_TRPO.Pages
     {
 
 
-        private BudgetEstimate budgetEstimate = new BudgetEstimate();
+        public BudgetEstimate budgetEstimate { get; } = new BudgetEstimate();
 
         public ObservableCollection<ExpenseItem> Expenses { get; set; }
 

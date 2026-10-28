@@ -83,12 +83,29 @@ namespace DataBindingCollections_TRPO
 
         public ObservableCollection<ExpenseItem> Expenses { get; set; } = new();
 
-        void NotifyCollectionChangedEventHandler(object? sender, NotifyCollectionChangedEventArgs e)
+        public BudgetEstimate() 
         {
-            foreach (var item in Expenses)
-            {
-                estimateTotal += item.ExpenseTotal;
-            }
+            Expenses.CollectionChanged += OnCollectionChanged;
+        }
+
+        void OnCollectionChanged(object? sender, NotifyCollectionChangedEventArgs e)
+        {
+            if (e.OldItems != null)
+                foreach (ExpenseItem item in e.OldItems)
+                    item.PropertyChanged -= Item_PropertyChanged;
+
+            if (e.NewItems != null)
+                foreach (ExpenseItem item in e.NewItems)
+                    item.PropertyChanged += Item_PropertyChanged;
+
+            OnPropertyChanged(nameof(EstimateTotal));
+        }
+
+        void Item_PropertyChanged(object? sender, PropertyChangedEventArgs e)
+        {
+            
+            if (e.PropertyName == nameof(ExpenseItem.ExpenseTotal))
+                OnPropertyChanged(nameof(EstimateTotal));
         }
 
         decimal estimateTotal;
@@ -96,6 +113,8 @@ namespace DataBindingCollections_TRPO
         {
             get 
             {
+                estimateTotal = 0;
+
                 foreach (var item in Expenses) 
                 {
                     estimateTotal += item.ExpenseTotal;
@@ -103,15 +122,7 @@ namespace DataBindingCollections_TRPO
                 
                 return estimateTotal;
             }
-            set 
-            {
-                if (estimateTotal != value)
-                {
-                    estimateTotal = value;
-                    OnPropertyChanged();
-                    
-                }
-            }
+            
             
         }
     }
