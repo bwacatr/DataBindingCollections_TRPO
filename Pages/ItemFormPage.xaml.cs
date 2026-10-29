@@ -29,7 +29,7 @@ namespace DataBindingCollections_TRPO.Pages
         {
             _originalItem = item;
 
-            _item = item == null ? new ExpenseItem(): new ExpenseItem  
+            _item = item == null ? new ExpenseItem() : new ExpenseItem
             {
                 Name = item.Name,
                 Count = item.Count,
@@ -60,7 +60,7 @@ namespace DataBindingCollections_TRPO.Pages
             _originalItem.Count = _item.Count;
             _originalItem.UnitPrice = _item.UnitPrice;
             BackButton_Click(sender, e);
-            
+
         }
     }
 }

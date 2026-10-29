@@ -26,7 +26,7 @@
             <Button Margin="5" Padding="5" Click="DeleteItem_Click">Удалить</Button>
         </StackPanel>
 
-        <ListView Grid.Row="1" ItemsSource="{Binding Expenses}" 
+        <ListView Grid.Row="1" ItemsSource="{Binding budgetEstimate.Expenses}" 
                   SelectedItem="{Binding SelectedItem}"
                   MouseDoubleClick="EditItem_Click">
             
@@ -57,6 +57,17 @@
             </ListView.ItemTemplate>
         </ListView>
 
+        <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal">
+            <Button Margin="5" Padding="5" Content="Сохранить" Click="SaveButton_Click"/>
+            <Button Margin="5" Padding="5" Content="Новая смета" Click="NewBudgetEstimateButton_Click"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Horizontal">
+            <Button Margin="5" Padding="5" Content="Предыдущая смета" Click="PreviousBudgetEstimateButton_Click"/>
+            <Button Margin="5" Padding="5" Content="Следующая смета" Click="NextBudgetEstimateButton_Click"/>
+        </StackPanel>
+
+
         <StackPanel Grid.Column="1" Grid.Row="1">
             <Label Content="Идентификатор"/>
             <Label Content="Название сметы"/>
@@ -78,7 +89,7 @@
                     Grid.ColumnSpan="3"
                     Background="AntiqueWhite">
             <Label>Всего в списке:</Label>
-            <Label Content="{Binding Expenses.Count}"/>
+            <Label Content="{Binding budgetEstimate.Expenses.Count}"/>
         </StackPanel>
     </Grid>
 </Page>

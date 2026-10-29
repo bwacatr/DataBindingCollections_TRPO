@@ -13,7 +13,7 @@ namespace DataBindingCollections_TRPO
     {
         public List<BudgetEstimate> budgetEstimates = new List<BudgetEstimate>();
 
-        void Save(string fileName)
+        public void Save(string fileName)
         {
             string jsonString = JsonSerializer.Serialize(budgetEstimates);
 
@@ -23,8 +23,10 @@ namespace DataBindingCollections_TRPO
             }
         }
 
-        void Load(string fileName)
+        public void Load(string fileName)
         {
+            budgetEstimates.Clear();
+
             using (StreamReader sr = File.OpenText(fileName))
             {
                 string jsonString = sr.ReadToEnd();
@@ -32,7 +34,7 @@ namespace DataBindingCollections_TRPO
 
                 List<BudgetEstimate>? budgetEstimatesLoaded = JsonSerializer.Deserialize<List<BudgetEstimate>>(jsonString);
 
-                if (budgetEstimatesLoaded.Count > 0 && budgetEstimatesLoaded != null)
+                if (budgetEstimatesLoaded != null && budgetEstimatesLoaded.Count > 0)
                 {
                     budgetEstimates.Clear();
                     for (int i = 0; i < budgetEstimatesLoaded.Count; i++)

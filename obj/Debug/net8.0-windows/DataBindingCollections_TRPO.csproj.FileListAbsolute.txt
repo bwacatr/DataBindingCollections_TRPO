@@ -27,7 +27,6 @@ C:\Users\Анатолий\Desktop\задачи\DataBindingCollections_TRPO\obj\D
 C:\Users\Анатолий\Desktop\задачи\DataBindingCollections_TRPO\obj\Debug\net8.0-windows\Pages\ItemFormPage.g.cs
 C:\Users\Анатолий\Desktop\задачи\DataBindingCollections_TRPO\obj\Debug\net8.0-windows\Pages\ListPage.g.cs
 C:\Users\Анатолий\Desktop\задачи\DataBindingCollections_TRPO\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\Анатолий\Desktop\задачи\DataBindingCollections_TRPO\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\Анатолий\Desktop\задачи\DataBindingCollections_TRPO\obj\Debug\net8.0-windows\DataBindingCollections_TRPO_MarkupCompile.cache
 C:\Users\Анатолий\Desktop\задачи\DataBindingCollections_TRPO\obj\Debug\net8.0-windows\DataBindingCollections_TRPO_MarkupCompile.lref
 C:\Users\Анатолий\Desktop\задачи\DataBindingCollections_TRPO\obj\Debug\net8.0-windows\DataBindingCollections_TRPO.dll

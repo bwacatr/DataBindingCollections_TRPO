@@ -80,12 +80,34 @@ namespace DataBindingCollections_TRPO
                 }
             }
         }
+        ObservableCollection<ExpenseItem> expenses = new();
+        public ObservableCollection<ExpenseItem> Expenses {
+            get { return expenses; }
+            set 
+            {
+                if (expenses != value)
+                {
+                    expenses.CollectionChanged -= OnCollectionChanged;
 
-        public ObservableCollection<ExpenseItem> Expenses { get; set; } = new();
+                    foreach (var item in expenses)
+                        item.PropertyChanged -= Item_PropertyChanged;
 
-        public BudgetEstimate() 
+                    expenses = value;
+
+                    expenses.CollectionChanged += OnCollectionChanged;
+
+                    foreach (var item in expenses)
+                        item.PropertyChanged += Item_PropertyChanged;
+
+                    OnPropertyChanged();
+                    OnPropertyChanged(nameof(EstimateTotal));
+                }
+            } 
+        }
+
+        public BudgetEstimate()
         {
-            Expenses.CollectionChanged += OnCollectionChanged;
+            expenses.CollectionChanged += OnCollectionChanged;
         }
 
         void OnCollectionChanged(object? sender, NotifyCollectionChangedEventArgs e)
@@ -103,7 +125,7 @@ namespace DataBindingCollections_TRPO
 
         void Item_PropertyChanged(object? sender, PropertyChangedEventArgs e)
         {
-            
+
             if (e.PropertyName == nameof(ExpenseItem.ExpenseTotal))
                 OnPropertyChanged(nameof(EstimateTotal));
         }
@@ -111,19 +133,19 @@ namespace DataBindingCollections_TRPO
         decimal estimateTotal;
         public decimal EstimateTotal
         {
-            get 
+            get
             {
                 estimateTotal = 0;
 
-                foreach (var item in Expenses) 
+                foreach (var item in Expenses)
                 {
                     estimateTotal += item.ExpenseTotal;
                 }
-                
+
                 return estimateTotal;
             }
-            
-            
+
+
         }
     }
 }

@@ -18,7 +18,7 @@ namespace DataBindingCollections_TRPO
         protected void OnPropertyChanged([CallerMemberName] string? propName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propName));
-            
+
         }
 
         int id;
