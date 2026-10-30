@@ -22,7 +22,6 @@ C:\Users\st310-08\Desktop\Romanov_PR31\DataBindingCollections_TRPO\obj\Debug\net
 C:\Users\st310-08\Desktop\Romanov_PR31\DataBindingCollections_TRPO\obj\Debug\net8.0-windows\ref\DataBindingCollections_TRPO.dll
 C:\Users\st310-08\Desktop\Romanov_PR31\DataBindingCollections_TRPO\obj\Debug\net8.0-windows\Pages\ItemFormPage.g.cs
 C:\Users\st310-08\Desktop\Romanov_PR31\DataBindingCollections_TRPO\obj\Debug\net8.0-windows\Pages\ItemFormPage.baml
-C:\Users\st310-08\Desktop\Romanov_PR31\DataBindingCollections_TRPO\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\Анатолий\Desktop\задачи\DataBindingCollections_TRPO\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\Анатолий\Desktop\задачи\DataBindingCollections_TRPO\obj\Debug\net8.0-windows\Pages\ItemFormPage.g.cs
 C:\Users\Анатолий\Desktop\задачи\DataBindingCollections_TRPO\obj\Debug\net8.0-windows\Pages\ListPage.g.cs
@@ -48,3 +47,4 @@ C:\Users\Анатолий\Desktop\задачи\DataBindingCollections_TRPO\obj\D
 C:\Users\Анатолий\Desktop\задачи\DataBindingCollections_TRPO\obj\Debug\net8.0-windows\DataBindingCollections_TRPO.sourcelink.json
 C:\Users\Анатолий\Desktop\задачи\DataBindingCollections_TRPO\obj\Debug\net8.0-windows\DataBindingCollections_TRPO.genruntimeconfig.cache
 C:\Users\Анатолий\Desktop\задачи\DataBindingCollections_TRPO\obj\Debug\net8.0-windows\ref\DataBindingCollections_TRPO.dll
+C:\Users\st310-08\Desktop\Romanov_PR31\DataBindingCollections_TRPO\obj\Debug\net8.0-windows\DataBindingCollections_TRPO.sourcelink.json

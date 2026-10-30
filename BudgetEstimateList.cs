@@ -44,5 +44,15 @@ namespace DataBindingCollections_TRPO
                 }
             }
         }
+
+        public void DeleteBudgetEstimate(int id)
+        {
+            budgetEstimates.RemoveAt(id);
+
+            for (int i = 0;i < budgetEstimates.Count;i++)
+            {
+                budgetEstimates[i].Id = i;
+            }
+        }
     }
 }

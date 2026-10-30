@@ -60,6 +60,7 @@
         <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal">
             <Button Margin="5" Padding="5" Content="Сохранить" Click="SaveButton_Click"/>
             <Button Margin="5" Padding="5" Content="Новая смета" Click="NewBudgetEstimateButton_Click"/>
+            <Button Margin="5" Padding="3" Content="Удалить смету" Click="DeleteBudgetEstimateButton_Click"/>
         </StackPanel>
 
         <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Horizontal">

@@ -169,6 +169,40 @@ namespace DataBindingCollections_TRPO.Pages
 
             budgetEstimate = estimateList.budgetEstimates[currentId];
         }
+
+        private void DeleteBudgetEstimateButton_Click(object sender, RoutedEventArgs e)
+        {
+            bool next = false;
+            
+
+            if (currentId == 0 && estimateList.budgetEstimates.Count > 1)
+            {
+                budgetEstimate = estimateList.budgetEstimates[currentId + 1];
+                next = true;
+            }
+            else if (estimateList.budgetEstimates.Count == 1)
+            {
+                MessageBox.Show("Удаление последней сметы невозможно.","Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            else
+            {
+                budgetEstimate = estimateList.budgetEstimates[currentId - 1];
+
+            }
+
+            estimateList.DeleteBudgetEstimate(currentId);
+
+            if (next)
+            {
+                currentId++;
+            }
+            else
+            {
+                currentId--;
+            }
+
+
+        }
         private void DeleteItem_Click(object sender, RoutedEventArgs e)
         {
             if (SelectedItem == null)
